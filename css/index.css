@@ -1,0 +1,241 @@
+body{
+  overflow-x: hidden;
+}
+.btn{
+    background: linear-gradient(128.31deg, #1D976C 0%, #8CDEAA 100%);
+    padding: 1% 5%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-width: 1px 1px 1px 1px;
+    margin-right: 25px;
+    box-shadow: 10px 15px 30px -10px rgb(0 0 0 / 10%);
+}
+.back{
+  background-image: url("/final\ banner.jpeg");
+    width: 100%;
+    height: 90vh;
+    z-index: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+@media only screen and (max-width:900px) and (min-width:700px){
+  .back{
+      height: 450px;
+  }
+}
+@media only screen and (max-width:700px) and (min-width:600px){
+  .back{
+      height: 400px;
+  }
+}
+@media only screen and (max-width:600px) and (min-width:500px){
+  .back{
+      height: 350px;
+  }
+}
+@media only screen and (max-width:500px) and (min-width:400px){
+  .back{
+      height: 280px;
+  }
+}
+@media only screen and (max-width:400px) and (min-width:300px){
+  .back{
+      height: 200px;
+  }
+}
+@media only screen and (max-width:300px) and (min-width:200px){
+  .back{
+      height: 200px;
+  }
+}
+@media only screen and (max-width:1180px) and (min-width:860px){
+  .back{
+      height: 60vh;
+  }
+}
+
+.productcard{
+    background-color: black;
+    opacity:0.2 ;
+    width: 400px;
+    position: relative;
+    left: 100px;
+}
+.glow {
+    font-size:2vw;
+    color: rgb(250, 243, 243);
+    font-family: cursive;
+    text-align: center;
+    border: 2px white solid;
+    color: white !important;
+    font-family: 'poopins', sans-serif !important;
+    position:relative;
+    background-color: black;
+    border-radius: 10px;
+    width: 40%;
+    /* height: 200px; */
+    opacity: 0.5;
+    margin-top: 220px;
+    margin-left: 50px;
+ padding: 15px;
+
+  }
+
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0c0a0b, 0 0 40px #050505, 0 0 50px #030203, 0 0 60px #030102, 0 0 70px #070607;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #0c0b0c, 0 0 40px #050505, 0 0 50px #0a0a0a, 0 0 60px #080406, 0 0 70px #0c0207, 0 0 80px #080708;
+    }
+  }
+  /* @media only screen and (max-width:1180px) and (min-width:860px) {
+    .categories{
+      height: 70vh;
+    }
+  } */
+  .glow2{
+    color: rgb(7, 5, 5);
+    font-family: archivo ;
+    text-align: center;
+  }
+
+  input{
+    width: 320px;
+    height: 55px;
+    border: 2px solid grey;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+#submit{
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+#reset{
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+.backhover :hover{
+background-color: #D6E4E5;
+}
+
+
+.borderhover :hover{
+    border: solid 1.5px #497174;
+}
+::placeholder {
+    color:white;
+}
+.b1{
+  background-image: url('/mart.avif');
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXX      form nd gif CSS      XXXXXXXXXXXXXXXXXXX*/
+
+body{
+  margin-top:20px;
+  background: #f6f9fc;
+}
+.account-block {
+  padding: 0;
+  background-image: url("/form_image.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100% ;
+  position: relative;
+}
+.account-block .overlay {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.account-block .account-testimonial {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+
+.text-theme {
+  color: #5369f8 !important;
+}
+
+.btn-theme {
+  background-color: #5369f8;
+  border-color: #5369f8;
+  color: #fff;
+}
+
+/*             XXXXXXXXXXXXXXXXXXXXX    navbar  hover   XXXXXXXXXXXXXXXXXXX */
+
+
+
+b:hover{
+  text-decoration: underline;
+}
+h1:hover{
+  text-decoration: underline;
+}
+h3:hover{
+  text-decoration: underline;
+}
+.footertext:hover{
+  text-decoration: underline;
+}
+.footertext{
+  font-family: archivo;
+  }
+h3{
+  font-family: archivo;
+
+}  
+
+.n1{
+  margin-left: 45px;
+  padding: 0px;
+}
+
+.productcard1{
+  display: flex;
+  justify-content: space-around;
+}
+/* @media only screen and (max-width:1000px) and (min-width: 750px) {
+  .z1{
+  
+    align-items: center;
+  }
+}; */
+
+
+
+.img1{
+  margin: 0 0 0 12px;
+  display: inline-block;
+  width: 100%;
+height: auto;
+vertical-align: middle;
+}
